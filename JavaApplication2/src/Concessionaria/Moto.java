@@ -7,6 +7,14 @@ public class Moto extends Veiculos
     private String tipoPartida;
     private double peso;
 
+    public Moto(String tipoMotor, double cilindrada, String tipoPartida, double peso)
+    {
+        this.tipoMotor = tipoMotor;
+        this.cilindrada = cilindrada;
+        this.tipoPartida = tipoPartida;
+        this.peso = peso;
+    }
+        
     public String getTipoMotor()
     {
         return tipoMotor;
