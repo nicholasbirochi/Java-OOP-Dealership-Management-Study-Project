@@ -34,9 +34,9 @@ public class Concessionaria
         // Exemplo 3: Caminhão de transporte de combustível
         Caminhao caminhaoTransporteCombustivel = new Caminhao("Mercedes-Benz", "Actros", 2021, 300000.00, "Combustível", 30000.0, 5, 700.0, "Automática");
 
-        List<Caminhao> caminhao = getVeiculosPorPrametro("Automático", 0);
+        List<Caminhao> caminhoes = getVeiculosPorPrametro("Automático", 0);
 
-        for (Caminhao caminhao : caminhao)
+        for (Caminhao caminhao : caminhoes)
         {
             caminhao.ObterInformacoes();
         }
