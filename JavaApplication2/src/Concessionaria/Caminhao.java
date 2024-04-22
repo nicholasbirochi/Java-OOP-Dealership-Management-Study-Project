@@ -65,6 +65,11 @@ public class Caminhao extends Veiculos
                 "\nModelo: " + getModelo() + 
                 "\nAno: " + getAno() +
                 "\nPreco: " + getPreco() +
+                "\nTipo de Carga: " + getTipoCarga() +
+                "\nCapacidade de Carga: " + getCapacidadeCarga() +
+                "\nNúmero de Eixos: " + getNumEixos() +
+                "\nPotencia do Motor: " + getPotenciaMotor() +
+                "\nTipo de Transmissão: " + getTipoTransmissao()
                 ;
     } 
 }

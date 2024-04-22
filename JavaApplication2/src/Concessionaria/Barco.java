@@ -8,6 +8,15 @@ public class Barco extends Veiculos
     private double potenciaMotor;
     private String tipoPropulsao;
 
+    public Barco(String marca, String modelo, int ano, double preco, double comprimento, String tipoCasco, int capacidadePassageiros, double potenciaMotor, String tipoPropulsao) {
+        super(marca, modelo, ano, preco);
+        this.comprimento = comprimento;
+        this.tipoCasco = tipoCasco;
+        this.capacidadePassageiros = capacidadePassageiros;
+        this.potenciaMotor = potenciaMotor;
+        this.tipoPropulsao = tipoPropulsao;
+    }
+
     public double getComprimento()
     {
         return comprimento;
