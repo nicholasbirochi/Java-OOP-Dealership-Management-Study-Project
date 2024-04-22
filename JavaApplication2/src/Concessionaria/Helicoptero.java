@@ -65,6 +65,18 @@ public class Helicoptero extends Veiculos
                 "\nModelo: " + getModelo() + 
                 "\nAno: " + getAno() +
                 "\nPreco: " + getPreco() +
+                "\nCapacidade de Passageiros: " + getCapacidadePassageiros() + 
+                "\nAutonomia de Voo: " + getAutonomiaVoo() +
+                "\nTipo de Rotor: " + getTipoRotor() +
+                "\nPotencia de Motor: " + getPotenciaMotor() +
+                "\nAltitude Máxima de Operação: " + getaltitudeMaximaOperacao()
                 ;
     } 
+
+
+        private int capacidadePassageiros;
+    private double autonomiaVoo;
+    private String tipoRotor;
+    private double potenciaMotor;
+    private double altitudeMaximaOperacao;
 }
