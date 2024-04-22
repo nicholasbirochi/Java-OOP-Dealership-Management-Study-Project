@@ -8,6 +8,15 @@ public class Carro extends Veiculos
     private double capacidadePortaMalas;
     private String tipoTransmissao;
 
+    public Carro(String marca, String modelo, int ano, double preco, int numPortas, String tipoCombustivel, double potenciaMotor, double capacidadePortaMalas, String tipoTransmissao) {
+        super(marca, modelo, ano, preco);
+        this.numPortas = numPortas;
+        this.tipoCombustivel = tipoCombustivel;
+        this.potenciaMotor = potenciaMotor;
+        this.capacidadePortaMalas = capacidadePortaMalas;
+        this.tipoTransmissao = tipoTransmissao;
+    }
+
     public int getNumPortas()
     {
         return numPortas;

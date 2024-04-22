@@ -8,7 +8,7 @@ public class Helicoptero extends Veiculos
     private double potenciaMotor;
     private double altitudeMaximaOperacao;
 
-    public Aeronave(String marca, String modelo, int ano, double preco, int capacidadePassageiros, double autonomiaVoo, String tipoRotor, double potenciaMotor, double altitudeMaximaOperacao) {
+    public Helicoptero(String marca, String modelo, int ano, double preco, int capacidadePassageiros, double autonomiaVoo, String tipoRotor, double potenciaMotor, double altitudeMaximaOperacao) {
         super(marca, modelo, ano, preco);
         this.capacidadePassageiros = capacidadePassageiros;
         this.autonomiaVoo = autonomiaVoo;

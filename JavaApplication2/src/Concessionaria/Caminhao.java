@@ -8,6 +8,15 @@ public class Caminhao extends Veiculos
     private double potenciaMotor;
     private String tipoTransmissao;
 
+    public Caminhao(String marca, String modelo, int ano, double preco, String tipoCarga, double capacidadeCarga, int numEixos, double potenciaMotor, String tipoTransmissao) {
+        super(marca, modelo, ano, preco);
+        this.tipoCarga = tipoCarga;
+        this.capacidadeCarga = capacidadeCarga;
+        this.numEixos = numEixos;
+        this.potenciaMotor = potenciaMotor;
+        this.tipoTransmissao = tipoTransmissao;
+    }
+
     public String getTipoCarga()
     {
         return tipoCarga;

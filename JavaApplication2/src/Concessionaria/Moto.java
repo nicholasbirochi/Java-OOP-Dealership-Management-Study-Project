@@ -7,8 +7,8 @@ public class Moto extends Veiculos
     private String tipoPartida;
     private double peso;
 
-    public Moto(String tipoMotor, double cilindrada, String tipoPartida, double peso)
-    {
+    public Moto(String marca, String modelo, int ano, double preco, String tipoMotor, double cilindrada, String tipoPartida, double peso) {
+        super(marca, modelo, ano, preco);
         this.tipoMotor = tipoMotor;
         this.cilindrada = cilindrada;
         this.tipoPartida = tipoPartida;
