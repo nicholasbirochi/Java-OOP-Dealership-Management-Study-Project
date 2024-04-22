@@ -65,6 +65,10 @@ public class Barco extends Veiculos
                 "\nModelo: " + getModelo() + 
                 "\nAno: " + getAno() +
                 "\nPreco: " + getPreco() +
-                ;
+                "\nComprimento: " + getComprimento() +
+                "\nTipo do casco: " + getTipoCasco() +
+                "\nCapacidade de Passageiros: " + getCapacidadePassageiros() +
+                "\nPotência do Motor: " + getPotenciaMotor() +
+                "\nTipo de Propulsão: " + getTipoPropulsao();
     } 
 }
