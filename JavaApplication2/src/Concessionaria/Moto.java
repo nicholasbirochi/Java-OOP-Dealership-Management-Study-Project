@@ -6,8 +6,15 @@ public class Moto extends Veiculos
     private double cilindrada;
     private String tipoPartida;
     private double peso;
-    private double alturaBanco;
 
+    public Moto(String tipoMotor, double cilindrada, String tipoPartida, double peso)
+    {
+        this.tipoMotor = tipoMotor;
+        this.cilindrada = cilindrada;
+        this.tipoPartida = tipoPartida;
+        this.peso = peso;
+    }
+        
     public String getTipoMotor()
     {
         return tipoMotor;
@@ -47,15 +54,6 @@ public class Moto extends Veiculos
     {
         this.peso = peso;
     }
-
-    public double getAlturaBanco() {
-        return alturaBanco;
-    }
-
-    public void setAlturaBanco(double alturaBanco)
-    {
-        this.alturaBanco = alturaBanco;
-    }
     
     @Override
     public String ObterInformacoes()
@@ -64,6 +62,9 @@ public class Moto extends Veiculos
                 "\nModelo: " + getModelo() + 
                 "\nAno: " + getAno() +
                 "\nPreco: " + getPreco() +
-                ;
+                "\nTipo de Motor: " + getTipoMotor() +
+                "\nCilindrada: " + getCilindrada() +
+                "\nTipo de Partida: " + getTipoPartida() +
+                "\nPeso: " + getPeso();
     } 
 }

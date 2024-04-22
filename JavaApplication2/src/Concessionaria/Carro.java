@@ -66,6 +66,9 @@ public class Carro extends Veiculos
                 "\nAno: " + getAno() +
                 "\nPreco: " + getPreco() +
                 "\nNúmero de Portas: " + getNumPortas() +
-                "\n";
+                "\nTipo de Combustível: " + getTipoCombustivel() +
+                "\nPotência do Motor: " + getPotenciaMotor() +
+                "\nCapacidade de PortaMalas: " + getCapacidadePortaMalas() +
+                "\nTipo de Transmissão: " + getTipoTransmissao();
     } 
 }
