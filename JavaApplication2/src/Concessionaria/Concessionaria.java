@@ -5,8 +5,6 @@ public class Concessionaria
 {
     public static void main(String[] args)
     {
-        Carro carro = new Carro("BMW", "X7", 2017, 200000.00, 4, "Gasolina", 7, 335, "xDrive");
-
         // Exemplo 1: Barco de pesca
         Barco barcoDePesca = new Barco("FishingMaster", "FM2000", 2018, 35000.00, 7.2, "Casco de Fibra de Vidro", 4, 150.0, "Motor de Popa");
 
@@ -26,5 +24,7 @@ public class Concessionaria
         Barco barcoDeLuxo = new Barco("YachtMaster", "LuxuryLiner", 2024, 1000000.00, 15.0, "Casco de Fibra de Vidro Reforçado", 12, 800.0, "Motor de Centro");
         
         System.out.println(carro.ObterInformacoes());
+
+        Carro carro = new Carro("BMW", "X7", 2017, 200000.00, 4, "Gasolina", 7, 335, "xDrive");
     }
 }
