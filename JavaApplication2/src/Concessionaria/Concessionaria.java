@@ -16,7 +16,8 @@ public class Concessionaria
         Barco barcoInflavel = new Barco("Zodiac", "ZS200", 2019, 15000.00, 4.0, "Casco Inflável", 4, 50.0, "Motor de Popa");
 
         Barco barcoDeLuxo = new Barco("YachtMaster", "LuxuryLiner", 2024, 1000000.00, 15.0, "Casco de Fibra de Vidro Reforçado", 12, 800.0, "Motor de Centro");
-        
+
+        // Zodiac - Marca; 0 - 
         List<Barcos> barcos = getVeiculosPorPrametro("Zodiac", 0);
 
         for (Barco barco : barcos)
@@ -33,6 +34,12 @@ public class Concessionaria
         // Exemplo 3: Caminhão de transporte de combustível
         Caminhao caminhaoTransporteCombustivel = new Caminhao("Mercedes-Benz", "Actros", 2021, 300000.00, "Combustível", 30000.0, 5, 700.0, "Automática");
 
+        List<Caminhao> caminhao = getVeiculosPorPrametro("Automático", 0);
+
+        for (Caminhao caminhao : caminhao)
+        {
+            caminhao.ObterInformacoes();
+        }
         
 
         // Exemplo 1: Carro hatchback
