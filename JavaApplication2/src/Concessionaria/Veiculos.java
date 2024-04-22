@@ -69,7 +69,7 @@ public class Veiculos
         return veiculos;
     }
     
-    public List<Veiculos> getVeiculosPorPrametro(String marca, int opcao)
+    public List<Veiculos> getVeiculosPorPrametro(String parametro, int opcao)
     {
         List<Veiculos> todos =  veiculos;
         List<Veiculos> resultado = new ArrayList<Veiculos>();
@@ -78,15 +78,15 @@ public class Veiculos
             switch(opcao)
             {
                 case 0:
-                    if(veiculo.getMarca().equals(marca))
+                    if(veiculo.getMarca().equals(parametro))
                         resultado.add(veiculo);
                     break;
                 case 1:
-                    if(veiculo.getModelo().equals(modelo))
+                    if(veiculo.getModelo().equals(parametro))
                         resultado.add(veiculo);
                     break;                    
                 case 2:
-                    if(String.valueOf(veiculo.getAno()).equals(ano))
+                    if(String.valueOf(veiculo.getAno()).equals(parametro))
                         resultado.add(veiculo);
                     break;       
             }
