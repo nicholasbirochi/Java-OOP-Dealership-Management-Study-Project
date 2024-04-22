@@ -29,12 +29,12 @@ public class Concessionaria
         Caminhao caminhaoCargaGeral = new Caminhao("Volvo", "FH16", 2020, 250000.00, "Carga Geral", 20000.0, 4, 600.0, "Manual");
 
         // Exemplo 2: Caminhão baú refrigerado
-        Caminhao caminhaoBauRefrigerado = new Caminhao("Scania", "P-Series", 2018, 180000.00, "Produtos Refrigerados", 15000.0, 3, 450.0, "Automática");
+        Caminhao caminhaoBauRefrigerado = new Caminhao("Scania", "Actros", 2018, 180000.00, "Produtos Refrigerados", 15000.0, 3, 450.0, "Automática");
 
         // Exemplo 3: Caminhão de transporte de combustível
         Caminhao caminhaoTransporteCombustivel = new Caminhao("Mercedes-Benz", "Actros", 2021, 300000.00, "Combustível", 30000.0, 5, 700.0, "Automática");
 
-        List<Caminhao> caminhoes = getVeiculosPorPrametro("Automático", 0);
+        List<Caminhao> caminhoes = getVeiculosPorPrametro("Actros", 1);
 
         for (Caminhao caminhao : caminhoes)
         {
